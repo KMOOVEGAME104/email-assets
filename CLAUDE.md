@@ -1,32 +1,82 @@
 # CLAUDE.md — Projet Signatures Email KMOOVE
 
 ## Objectif
-Signatures email HTML professionnelles pour l'équipe KMOOVE, compatibles tous clients email (Gmail, Outlook, Apple Mail, Thunderbird). Anti-spam optimisé.
+Signatures email HTML professionnelles pour l'équipe KMOOVE, compatibles tous clients email (Gmail, Outlook, Apple Mail, Thunderbird). Anti-spam optimisé, ergonomie maximale.
+
+---
+
+## CONSIGNES PERMANENTES (à appliquer à CHAQUE modification)
+
+### RÈGLE 1 — Double livraison obligatoire
+À chaque modification de signature, mettre à jour dans le dossier de la personne :
+- **`signature-<domaine>.html`** — fichier HTML complet (pour prévisualiser dans un navigateur)
+- **`CODE-<domaine>.txt`** — code HTML brut prêt à copier-coller directement dans le client email
+
+### RÈGLE 2 — Anti-spam obligatoire
+Chaque signature DOIT respecter TOUTES ces règles anti-spam :
+- Layout 100% `<table>` (jamais flexbox/grid — incompatible Outlook)
+- CSS inline uniquement (jamais de `<style>` block — ignoré par Gmail)
+- `width` + `height` fixes en pixels sur CHAQUE image (empêche le zoom)
+- `display: block` sur toutes les images (empêche espacement fantôme)
+- `border="0"` sur toutes les images (empêche bordure bleue de lien)
+- Images compressées < 10 Ko chacune (total signature < 25 Ko)
+- HTTPS obligatoire partout (HTTP = bloqué par Gmail)
+- Hébergement github.io (domaine de confiance, jamais blacklisté)
+- Jamais de base64 (bloqué par Gmail, Outlook)
+- Jamais de SVG (non supporté par beaucoup de clients)
+- Jamais de JavaScript (bloqué partout)
+- Ratio texte/images équilibré (assez de texte visible)
+- Alt text descriptif sur chaque image (affichage si images bloquées)
+- Liens vers domaine propre (apa-kmoove.com) — jamais de shorteners (bit.ly, etc.)
+- Pas de mots spam dans le HTML ("gratuit", "offre", "cliquez ici")
+
+### RÈGLE 3 — Ergonomie maximale
+- Photo en cercle (100x100px) — pro et humain
+- Informations hiérarchisées : nom > poste > tel > email > site > lieu
+- Badges distinctions en bas (UGAP + Prix) — crédibilité
+- Ligne rouge KMOOVE (#E30613) comme séparateur visuel
+- Police Arial (universelle, lisible)
+- Tailles : nom 18px bold, poste 14px rouge, coordonnées 13px gris
+- Mention légale discrète (10px, gris clair)
+
+### RÈGLE 4 — Mise à jour systématique
+Quand l'utilisateur demande un changement de signature :
+1. Modifier TOUS les fichiers `.html` de la personne concernée
+2. Modifier TOUS les fichiers `CODE-*.txt` correspondants
+3. Si changement global (badges, design, layout) → modifier TOUS les dossiers
+4. Recompresser les images si nouvelles images ajoutées
+5. Git push sur GitHub Pages
+6. Mettre à jour ce CLAUDE.md si infos changent
+
+---
 
 ## Structure des dossiers
 ```
 SIGNATURE/
-  images/                      ← Images partagées (badges UGAP, Prix)
-  Coralie Rodriguez/           ← 3 signatures (pro, sales, ventes)
-    signature-kmoove-pro.html
+  images/                          ← Images partagées (badges, photos)
+  Coralie Rodriguez/
+    signature-kmoove-pro.html      ← Prévisualisation navigateur
     signature-kmoove-sales.html
     signature-kmoove-ventes.html
-  Karim Mounassib/             ← À compléter (photo + infos + signatures)
-  Olivier Cardiner/            ← À compléter (photo + infos + signatures)
+    CODE-kmoove-pro.txt            ← Code HTML brut à copier-coller
+    CODE-kmoove-sales.txt
+    CODE-kmoove-ventes.txt
+  Karim Mounassib/                 ← À compléter (photo + infos)
+  Olivier Cardiner/                ← À compléter (photo + infos)
 ```
 
 ## Équipe KMOOVE — Signatures
 
 ### Coralie Rodriguez — Co-fondatrice
-| Adresse email | Fichier signature | Statut |
-|---------------|-------------------|--------|
-| coralie@kmoove-pro.com | `Coralie Rodriguez/signature-kmoove-pro.html` | OK |
-| coralie@kmoove-sales.com | `Coralie Rodriguez/signature-kmoove-sales.html` | OK |
-| coralie@kmoove-ventes.com | `Coralie Rodriguez/signature-kmoove-ventes.html` | OK |
+| Adresse email | Fichier HTML | Code à copier | Statut |
+|---------------|-------------|---------------|--------|
+| coralie@kmoove-pro.com | `signature-kmoove-pro.html` | `CODE-kmoove-pro.txt` | OK |
+| coralie@kmoove-sales.com | `signature-kmoove-sales.html` | `CODE-kmoove-sales.txt` | OK |
+| coralie@kmoove-ventes.com | `signature-kmoove-ventes.html` | `CODE-kmoove-ventes.txt` | OK |
 - **Téléphone :** +33 7 43 39 77 08
 - **Site web :** https://apa-kmoove.com/
 - **Lieux :** Lyon / Paris / Lille
-- **Photo :** `images/photo-coralie.jpeg` (6 Ko, compressée)
+- **Photo :** `images/photo-coralie.jpeg` (6 Ko)
 
 ### Karim Mounassib — À compléter
 - Photo : à fournir → placer dans `images/photo-karim.jpg`
@@ -36,43 +86,27 @@ SIGNATURE/
 - Photo : à fournir → placer dans `images/photo-olivier.jpg`
 - Poste, téléphone, adresses email : à fournir
 
-## Images partagées (badges) — hébergées sur GitHub Pages
-| Image | Fichier | URL publique | Taille |
-|-------|---------|-------------|--------|
-| Photo Coralie | `photo-coralie.jpeg` | `https://kmoovegame104.github.io/email-assets/images/photo-coralie.jpeg` | 6 Ko |
-| Badge UGAP | `badge-ugap.jpg` | `https://kmoovegame104.github.io/email-assets/images/badge-ugap.jpg` | 7 Ko |
-| Prix Salon Sports 2025 | `prix-salon-sports.jpg` | `https://kmoovegame104.github.io/email-assets/images/prix-salon-sports.jpg` | 9 Ko |
+## Images partagées — GitHub Pages
+| Image | URL publique | Taille |
+|-------|-------------|--------|
+| Photo Coralie | `https://kmoovegame104.github.io/email-assets/images/photo-coralie.jpeg` | 6 Ko |
+| Badge UGAP | `https://kmoovegame104.github.io/email-assets/images/badge-ugap.jpg` | 7 Ko |
+| Prix Salon Sports | `https://kmoovegame104.github.io/email-assets/images/prix-salon-sports.jpg` | 9 Ko |
 
-## Hébergement images
+## Hébergement
 - **Repo :** KMOOVEGAME104/email-assets (public)
 - **GitHub Pages :** https://kmoovegame104.github.io/email-assets/
-- **Branche :** master
+- **SPF/DKIM/DMARC :** configurés sur kmoove-pro.com, kmoove-sales.com, kmoove-ventes.com
 
-## Checklist anti-spam (appliquée à TOUTES les signatures)
-- [x] Layout 100% `<table>` (pas de flexbox/grid — incompatible Outlook)
-- [x] CSS inline uniquement (pas de `<style>` block — ignoré par Gmail)
-- [x] `width` + `height` fixes en pixels sur chaque image (empêche le zoom)
-- [x] `display: block` sur toutes les images (empêche espacement fantôme)
-- [x] `border="0"` sur toutes les images (empêche bordure bleue de lien)
-- [x] Images compressées < 10 Ko chacune (total < 25 Ko)
-- [x] HTTPS partout (HTTP = bloqué par Gmail)
-- [x] Hébergement github.io (domaine de confiance, jamais blacklisté)
-- [x] Pas de base64 (bloqué par Gmail, Outlook)
-- [x] Pas de SVG (non supporté par beaucoup de clients)
-- [x] Pas de JavaScript (bloqué partout)
-- [x] Ratio texte/images correct (assez de texte visible)
-- [x] SPF/DKIM/DMARC configurés sur kmoove-pro.com (confirmé)
-- [x] Alt text descriptif sur chaque image (affichage si images bloquées)
-- [x] Liens vers domaine propre (apa-kmoove.com) — pas de shorteners
-
-## Processus pour ajouter un nouveau collègue
+## Processus pour ajouter/modifier un collègue
 1. Placer la photo dans `images/photo-prenom.jpg`
 2. Compresser (200x200px, JPEG quality 75, < 10 Ko)
 3. Demander : nom, poste, téléphone, adresses email
-4. Dupliquer un fichier signature existant → changer nom/poste/email/photo
-5. `git push` → GitHub Pages met à jour les images automatiquement
-6. Donner le code HTML au collègue
+4. Créer `signature-<domaine>.html` + `CODE-<domaine>.txt` pour chaque adresse
+5. Vérifier checklist anti-spam (RÈGLE 2)
+6. `git push` → GitHub Pages met à jour automatiquement
+7. Donner le code HTML (fichier CODE-*.txt) au collègue
 
 ## Notes
-- Ce CLAUDE.md est SPÉCIFIQUE à ce projet (dossier SIGNATURE uniquement)
+- Ce CLAUDE.md est SPÉCIFIQUE à ce dossier SIGNATURE uniquement
 - Ne pas confondre avec les CLAUDE.md des projets KMOOVE (jeux Python)
