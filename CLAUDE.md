@@ -61,8 +61,20 @@ SIGNATURE/
     CODE-kmoove-pro.txt            ← Code HTML brut à copier-coller
     CODE-kmoove-sales.txt
     CODE-kmoove-ventes.txt
-  Karim Mounassib/                 ← À compléter (photo + infos)
-  Olivier Cardiner/                ← À compléter (photo + infos)
+  Karim Mounassib/
+    signature-kmoove-pro.html
+    signature-kmoove-sales.html
+    signature-kmoove-ventes.html
+    CODE-kmoove-pro.txt
+    CODE-kmoove-sales.txt
+    CODE-kmoove-ventes.txt
+  Olivier Cardiner/
+    signature-kmoove-pro.html
+    signature-kmoove-sales.html
+    signature-kmoove-ventes.html
+    CODE-kmoove-pro.txt
+    CODE-kmoove-sales.txt
+    CODE-kmoove-ventes.txt
 ```
 
 ## Équipe KMOOVE — Signatures
@@ -78,18 +90,34 @@ SIGNATURE/
 - **Lieux :** Lyon / Paris / Lille
 - **Photo :** `images/photo-coralie.jpeg` (6 Ko)
 
-### Karim Mounassib — À compléter
-- Photo : à fournir → placer dans `images/photo-karim.jpg`
-- Poste, téléphone, adresses email : à fournir
+### Karim Mounassib — Fondateur
+| Adresse email | Fichier HTML | Code à copier | Statut |
+|---------------|-------------|---------------|--------|
+| k.mounassib@kmoove-pro.com | `signature-kmoove-pro.html` | `CODE-kmoove-pro.txt` | OK |
+| k.mounassib@kmoove-sales.com | `signature-kmoove-sales.html` | `CODE-kmoove-sales.txt` | OK |
+| k.mounassib@kmoove-ventes.com | `signature-kmoove-ventes.html` | `CODE-kmoove-ventes.txt` | OK |
+- **Téléphone :** +33 7 43 39 77 08
+- **Site web :** https://apa-kmoove.com/
+- **Lieux :** Lyon / Paris / Lille
+- **Photo :** `images/photo-karim.jpeg` (5 Ko)
 
-### Olivier Cardiner — À compléter
-- Photo : à fournir → placer dans `images/photo-olivier.jpg`
-- Poste, téléphone, adresses email : à fournir
+### Olivier Cardiner — Directeur Commercial
+| Adresse email | Fichier HTML | Code à copier | Statut |
+|---------------|-------------|---------------|--------|
+| olivier@kmoove-pro.com | `signature-kmoove-pro.html` | `CODE-kmoove-pro.txt` | OK |
+| olivier@kmoove-sales.com | `signature-kmoove-sales.html` | `CODE-kmoove-sales.txt` | OK |
+| olivier@kmoove-ventes.com | `signature-kmoove-ventes.html` | `CODE-kmoove-ventes.txt` | OK |
+- **Téléphone :** +33 7 43 39 77 08
+- **Site web :** https://apa-kmoove.com/
+- **Lieux :** Lyon / Paris / Lille
+- **Photo :** `images/photo-olivier.jpeg` (4 Ko)
 
 ## Images partagées — GitHub Pages
 | Image | URL publique | Taille |
 |-------|-------------|--------|
 | Photo Coralie | `https://kmoovegame104.github.io/email-assets/images/photo-coralie.jpeg` | 6 Ko |
+| Photo Karim | `https://kmoovegame104.github.io/email-assets/images/photo-karim.jpeg` | 5 Ko |
+| Photo Olivier | `https://kmoovegame104.github.io/email-assets/images/photo-olivier.jpeg` | 4 Ko |
 | Badge UGAP | `https://kmoovegame104.github.io/email-assets/images/badge-ugap.jpg` | 7 Ko |
 | Prix Salon Sports | `https://kmoovegame104.github.io/email-assets/images/prix-salon-sports.jpg` | 9 Ko |
 
