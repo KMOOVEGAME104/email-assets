@@ -1,0 +1,48 @@
+- table [ref=e2]:
+  - rowgroup [ref=e3]:
+    - row "Coralie Rodriguez Coralie Rodriguez Fondatrice — KMOOVE 📞 +33 7 43 39 77 08 ✉ coralie@kmoove-pro.com 🌐 apa-kmoove.com 📍 Lyon • Paris • Lille Produit sélectionné par UGAP Prix de l'Innovation - Salon des Sports et Parasports 2025 Ce message et ses pièces jointes sont confidentiels. Si vous n'êtes pas le destinataire, merci de le supprimer." [ref=e4]:
+      - cell "Coralie Rodriguez Coralie Rodriguez Fondatrice — KMOOVE 📞 +33 7 43 39 77 08 ✉ coralie@kmoove-pro.com 🌐 apa-kmoove.com 📍 Lyon • Paris • Lille Produit sélectionné par UGAP Prix de l'Innovation - Salon des Sports et Parasports 2025 Ce message et ses pièces jointes sont confidentiels. Si vous n'êtes pas le destinataire, merci de le supprimer." [ref=e5]:
+        - table [ref=e6]:
+          - rowgroup [ref=e7]:
+            - row "Coralie Rodriguez Coralie Rodriguez Fondatrice — KMOOVE 📞 +33 7 43 39 77 08 ✉ coralie@kmoove-pro.com 🌐 apa-kmoove.com 📍 Lyon • Paris • Lille" [ref=e8]:
+              - cell "Coralie Rodriguez" [ref=e9]:
+                - img "Coralie Rodriguez" [ref=e10]
+              - cell "Coralie Rodriguez Fondatrice — KMOOVE 📞 +33 7 43 39 77 08 ✉ coralie@kmoove-pro.com 🌐 apa-kmoove.com 📍 Lyon • Paris • Lille" [ref=e11]:
+                - table [ref=e12]:
+                  - rowgroup [ref=e13]:
+                    - row "Coralie Rodriguez" [ref=e14]:
+                      - cell "Coralie Rodriguez" [ref=e15]
+                    - row "Fondatrice — KMOOVE" [ref=e16]:
+                      - cell "Fondatrice — KMOOVE" [ref=e17]
+                    - row "📞 +33 7 43 39 77 08" [ref=e18]:
+                      - cell "📞 +33 7 43 39 77 08" [ref=e19]:
+                        - text: 📞
+                        - link "+33 7 43 39 77 08" [ref=e20] [cursor=pointer]:
+                          - /url: tel:+33743397708
+                    - row "✉ coralie@kmoove-pro.com" [ref=e21]:
+                      - cell "✉ coralie@kmoove-pro.com" [ref=e22]:
+                        - text: ✉
+                        - link "coralie@kmoove-pro.com" [ref=e23] [cursor=pointer]:
+                          - /url: mailto:coralie@kmoove-pro.com
+                    - row "🌐 apa-kmoove.com" [ref=e24]:
+                      - cell "🌐 apa-kmoove.com" [ref=e25]:
+                        - text: 🌐
+                        - link "apa-kmoove.com" [ref=e26] [cursor=pointer]:
+                          - /url: https://apa-kmoove.com/
+                    - row "📍 Lyon • Paris • Lille" [ref=e27]:
+                      - cell "📍 Lyon • Paris • Lille" [ref=e28]
+        - table [ref=e29]:
+          - rowgroup [ref=e30]:
+            - row "Produit sélectionné par UGAP Prix de l'Innovation - Salon des Sports et Parasports 2025" [ref=e31]:
+              - cell "Produit sélectionné par UGAP" [ref=e32]:
+                - link "Produit sélectionné par UGAP" [ref=e33] [cursor=pointer]:
+                  - /url: https://apa-kmoove.com/
+                  - img "Produit sélectionné par UGAP" [ref=e34]
+              - cell "Prix de l'Innovation - Salon des Sports et Parasports 2025" [ref=e35]:
+                - link "Prix de l'Innovation - Salon des Sports et Parasports 2025" [ref=e36] [cursor=pointer]:
+                  - /url: https://apa-kmoove.com/
+                  - img "Prix de l'Innovation - Salon des Sports et Parasports 2025" [ref=e37]
+        - table [ref=e38]:
+          - rowgroup [ref=e39]:
+            - row "Ce message et ses pièces jointes sont confidentiels. Si vous n'êtes pas le destinataire, merci de le supprimer." [ref=e40]:
+              - cell "Ce message et ses pièces jointes sont confidentiels. Si vous n'êtes pas le destinataire, merci de le supprimer." [ref=e41]
