@@ -68,7 +68,7 @@ SIGNATURE/
     CODE-kmoove-pro.txt
     CODE-kmoove-sales.txt
     CODE-kmoove-ventes.txt
-  Olivier Cardiner/
+  Olivier Carduner/
     signature-kmoove-pro.html
     signature-kmoove-sales.html
     signature-kmoove-ventes.html
@@ -103,7 +103,7 @@ SIGNATURE/
 - **LinkedIn :** https://www.linkedin.com/in/karimmounassib-gamification-/
 - **Photo :** `images/photo-karim.jpeg` (5 Ko)
 
-### Olivier Cardiner — Directeur Commercial
+### Olivier Carduner — Directeur Commercial
 | Adresse email | Fichier HTML | Code à copier | Statut |
 |---------------|-------------|---------------|--------|
 | olivier@kmoove-pro.com | `signature-kmoove-pro.html` | `CODE-kmoove-pro.txt` | OK |
