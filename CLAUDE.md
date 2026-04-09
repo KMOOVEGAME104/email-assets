@@ -88,6 +88,7 @@ SIGNATURE/
 - **Téléphone :** +33 7 43 39 77 08
 - **Site web :** https://apa-kmoove.com/
 - **Lieux :** Lyon / Paris / Lille
+- **LinkedIn :** https://www.linkedin.com/in/coralie-rodriguez-99511619a/
 - **Photo :** `images/photo-coralie.jpeg` (6 Ko)
 
 ### Karim Mounassib — Fondateur
@@ -99,6 +100,7 @@ SIGNATURE/
 - **Téléphone :** +33 7 43 39 77 08
 - **Site web :** https://apa-kmoove.com/
 - **Lieux :** Lyon / Paris / Lille
+- **LinkedIn :** https://www.linkedin.com/in/karimmounassib-gamification-/
 - **Photo :** `images/photo-karim.jpeg` (5 Ko)
 
 ### Olivier Cardiner — Directeur Commercial
@@ -110,6 +112,7 @@ SIGNATURE/
 - **Téléphone :** +33 7 43 39 77 08
 - **Site web :** https://apa-kmoove.com/
 - **Lieux :** Lyon / Paris / Lille
+- **LinkedIn :** https://www.linkedin.com/in/ocarduner3aconseil/
 - **Photo :** `images/photo-olivier.jpeg` (4 Ko)
 
 ## Images partagées — GitHub Pages
@@ -118,6 +121,7 @@ SIGNATURE/
 | Photo Coralie | `https://kmoovegame104.github.io/email-assets/images/photo-coralie.jpeg` | 6 Ko |
 | Photo Karim | `https://kmoovegame104.github.io/email-assets/images/photo-karim.jpeg` | 5 Ko |
 | Photo Olivier | `https://kmoovegame104.github.io/email-assets/images/photo-olivier.jpeg` | 4 Ko |
+| Icone LinkedIn | `https://kmoovegame104.github.io/email-assets/images/icon-linkedin.png` | < 1 Ko |
 | Badge UGAP | `https://kmoovegame104.github.io/email-assets/images/badge-ugap.jpg` | 7 Ko |
 | Prix Salon Sports | `https://kmoovegame104.github.io/email-assets/images/prix-salon-sports.jpg` | 9 Ko |
 
