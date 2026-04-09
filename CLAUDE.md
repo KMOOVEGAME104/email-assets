@@ -62,16 +62,20 @@ SIGNATURE/
     CODE-kmoove-sales.txt
     CODE-kmoove-ventes.txt
   Karim Mounassib/
+    signature-kmoove.html
     signature-kmoove-pro.html
     signature-kmoove-sales.html
     signature-kmoove-ventes.html
+    CODE-kmoove.txt
     CODE-kmoove-pro.txt
     CODE-kmoove-sales.txt
     CODE-kmoove-ventes.txt
   Olivier Carduner/
+    signature-kmoove.html
     signature-kmoove-pro.html
     signature-kmoove-sales.html
     signature-kmoove-ventes.html
+    CODE-kmoove.txt
     CODE-kmoove-pro.txt
     CODE-kmoove-sales.txt
     CODE-kmoove-ventes.txt
@@ -94,6 +98,7 @@ SIGNATURE/
 ### Karim Mounassib — Fondateur
 | Adresse email | Fichier HTML | Code à copier | Statut |
 |---------------|-------------|---------------|--------|
+| karim@kmoove.com | `signature-kmoove.html` | `CODE-kmoove.txt` | OK |
 | k.mounassib@kmoove-pro.com | `signature-kmoove-pro.html` | `CODE-kmoove-pro.txt` | OK |
 | k.mounassib@kmoove-sales.com | `signature-kmoove-sales.html` | `CODE-kmoove-sales.txt` | OK |
 | k.mounassib@kmoove-ventes.com | `signature-kmoove-ventes.html` | `CODE-kmoove-ventes.txt` | OK |
@@ -106,6 +111,7 @@ SIGNATURE/
 ### Olivier Carduner — Directeur Commercial
 | Adresse email | Fichier HTML | Code à copier | Statut |
 |---------------|-------------|---------------|--------|
+| olivier@kmoove.com | `signature-kmoove.html` | `CODE-kmoove.txt` | OK |
 | olivier@kmoove-pro.com | `signature-kmoove-pro.html` | `CODE-kmoove-pro.txt` | OK |
 | olivier@kmoove-sales.com | `signature-kmoove-sales.html` | `CODE-kmoove-sales.txt` | OK |
 | olivier@kmoove-ventes.com | `signature-kmoove-ventes.html` | `CODE-kmoove-ventes.txt` | OK |
