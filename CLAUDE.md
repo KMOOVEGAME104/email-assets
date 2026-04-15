@@ -30,14 +30,18 @@ Chaque signature DOIT respecter TOUTES ces règles anti-spam :
 - Liens vers domaine propre (apa-kmoove.com) — jamais de shorteners (bit.ly, etc.)
 - Pas de mots spam dans le HTML ("gratuit", "offre", "cliquez ici")
 
-### RÈGLE 3 — Ergonomie maximale
-- Photo en cercle (100x100px) — pro et humain
-- Informations hiérarchisées : nom > poste > tel > email > site > lieu
-- Badges distinctions en bas (UGAP + Prix) — crédibilité
-- Ligne rouge KMOOVE (#E30613) comme séparateur visuel
+### RÈGLE 3 — Layout horizontal (v2.0 — 2026-04-15)
+- **Layout 3 colonnes** : Photo+Infos | Séparateur rouge vertical | Phrase marketing + Badges
+- Photo en cercle (88x88px) — pro et humain
+- Informations hiérarchisées : nom > poste > tel > email > site > LinkedIn > lieu
+- **Colonne droite** : phrase marketing (13px bold #444) + cibles (11px #888) + badges UGAP (180x77) et Prix (180x51) côte à côte
+- Séparateur rouge vertical KMOOVE (#E30613, 3px, 145px hauteur)
 - Police Arial (universelle, lisible)
 - Tailles : nom 18px bold, poste 14px rouge, coordonnées 13px gris
-- Mention légale discrète (10px, gris clair)
+- Phrase marketing : "Solutions interactives, ludiques et sportives de prévention et de santé"
+- Cibles : "EHPAD - IME - Maison Sport Santé - Agglomération - Entreprise"
+- Mention légale discrète (9px, gris clair) — seul élément sous le layout horizontal
+- Icône LinkedIn cliquable (14x14px) vers le profil de chaque personne
 
 ### RÈGLE 4 — Mise à jour systématique
 Quand l'utilisateur demande un changement de signature :
